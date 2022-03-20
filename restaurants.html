@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <title>2022's Best Restaurants in Portland</title>
+
+    <style> a:hover{
+        color:red;} 
+    </style>
+
+    <link rel="stylesheet" type = "text/css" href="/restaurant_css.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Best Restaurants Review Co.</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" style="color:black">This Year's Winner</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false" style="color:black">
+                        Dropdown
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">See Last Year's List</a>
+                        <a class="dropdown-item" href="#">Search Restaurants in Your Area</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Suggest Local Spots</a>
+                      </div>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>    
+        </header>
+        <h1>Welcome to My List of the Best Restaurants in Portland, OR</h1>
+
+        <img src="https://pinestatebiscuits.com/wp-content/uploads/2019/05/psbnw_pic-scaled-1000x750.jpg" class="image">
+
+        <br>
+        <br>
+
+      <div class="row" >
+          <div class="col-md-3">
+        
+        <ul>
+            <li>
+                <a href="https://www.mamabirdpdx.com/" target="blank">Mamma Bird</a> - interesting bistro style restaurant serving fire grilled chicken and unique sides!
+            </li>
+            <li>
+                <a href="https://pokpokrestaurants.com" target="blank">Pok Pok</a> - amazing Thai Fusion like nothing you've had before! You've got to try the wings!
+            </li>
+            <li>
+                <a href="https://www.bollywoodtheaterpdx.com" target="blank"><b>Bollywood Theatre</b></a> - This restaurant in particular is one of the best in the city. Even if you don't like Indian food you'll 
+                    love this place.
+            </li>
+            <li>
+                <a href="https://pinestatebiscuits.com/" target="blank">Pine State Biscuit</a> - Try the homemade PopTarts!
+            </li>
+            <li>
+                <a href="https://wafflewindow.com/" target="blank">Waffle Window</a> - Great breakfast spot for unique waffles and great coffee!
+            </li>
+        </ul>
+          </div>
+
+      
+        <div class="col-md-3">  
+        <div id="question">Have you ever eaten at any of these Portland restaurants?></div>
+        <label for="portland-yes">
+            <input id="portland-yes" type="radio" name:yes-no>Yes
+        </label>
+        <label for="portland-no">
+            <input id="portland-no" type="radio" name:yes-no>No
+        </label>
+        <input type="submit" name:submit>
+        </div>
+      
+        <br>
+        <br>
+ 
+          <div class="col-md-3">
+        <label for="favorites" id: urfavorite>What is your favorite of these foods?
+            <select id="favorites" name="favorites">
+                <option value="Thai">Thai Food</option>
+                <option value="Indian">Indian Food</option>
+                <option value="Chicken">Wood Fired Chicken</option>
+                <option value="Biscuits">Breakfast Biscuits</option>
+                <option value="Waffles">Waffles</option>
+            </select>
+        </label>
+          </div>
+
+        <br><br>
+
+          <div class="col-md-3">
+        <form>
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name">
+        </form>
+        <br>
+        <form>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        </form>
+        <br>
+        <div id="commentdiv">Leave us a comment or thought when you visit.</div>
+        <textarea id="name" name="name" rows="1" cols="35"></textarea>
+        <br>
+        <label for="button">
+            <input id="button" type="submit" name="submit" >
+        </label>
+          </div>
+      </div>
+
+      <br>
+      <br>
+
+      <footer class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">© Best Restaurants Review Co. </div>
+          <div class="col-md-4">
+            <ul class="nav nav-pills">
+              <li><a href="#">Contact Us &#124; </a></li>
+              <li><a href="#">Get Support &#124; </a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <p class="text-right"><a href="#">Follow Us</a></p>
+          </div>
+        </div>
+      </footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    </body>
+</html>
+
